@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1D1D1"
+    android:orientation="vertical" >
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#FF5C48"
+            android:src="@android:drawable/ic_menu_gallery" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                >
+
+               <TextView
+                   android:id="@+id/nickname"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="4dp"
+                   android:gravity="left|center_vertical|center_horizontal"
+                   android:text="昵称"
+                   android:textColor="#000000"
+                   android:textSize="15sp" />
+
+               <ImageView
+                   android:id="@+id/gender"
+                   android:layout_width="15dp"
+                   android:layout_height="15dp"
+                   android:layout_marginLeft="2dp"
+                   android:layout_marginTop="6dp"
+                   android:src="@drawable/male" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:textSize="15sp" />
+               
+               <TextView
+                   android:id="@+id/state"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginRight="3dp"
+                   android:layout_marginTop="3dp"
+                   android:background="@drawable/offlineorder"
+                   android:gravity="right"
+                   android:text="拼单状态"
+                   android:textColor="#FF5C48"
+                   android:textSize="12sp" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/ad" />
+               
+            <TextView
+                android:id="@+id/spot"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="1dp"
+                android:text="地点"
+                android:singleLine="true"
+                android:textColor="#5E5E5E"
+                android:textSize="12sp" />
+             </LinearLayout>
+             
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal" >
+
+            <ImageView
+                   android:layout_width="14dp"
+                   android:layout_height="14dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="1dp"
+                   android:src="@drawable/z" />
+
+            <TextView
+                android:id="@+id/endtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="1dp"
+                android:text="截止时间"
+                android:textColor="#5E5E5E"
+                android:layout_weight="1"
+                android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp" >
+
+                <TextView
+                    android:id="@+id/ordertype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FF5C48"
+                    android:text=" 拼单类型 "
+                    android:textColor="#ffffff"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3E3E3"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="用户描述"
+            android:maxLines="3"
+			android:ellipsize="end"
+            android:textColor="#0D0D0D"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+            <View  android:layout_height="3px" 
+           android:layout_width="match_parent"
+           android:background="#999999"/>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E8E8"
+    android:orientation="vertical"
+    android:padding="6dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/shangpinlinkurl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+          	android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="请粘贴商品链接到此处"
+            android:singleLine="false"
+            android:textColor="#333355">
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/ensurelink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/home_select_list_style"
+        android:text="确认链接"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/zhijietianxie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="#00000000"
+        android:textColor="#7A67EE"
+        android:text="直接填写" />
+
+</LinearLayout>

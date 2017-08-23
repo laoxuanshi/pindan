@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical"
+    android:background="#f3f3f3">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/spot"
+            android:text="商品描述"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/spot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="地点"
+            android:textSize="20sp" />
+        
+        
+
+    </RelativeLayout>
+
+</LinearLayout>

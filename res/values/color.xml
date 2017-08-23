@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="head_bg">#69d6d2</color>
+    <!-- 头部背景颜色 5cc1bd -->
+    <color name="translucent"> #e0000000</color>
+    <!-- 半透明 -->
+    <color name="white">#ffffff</color>
+    <!-- 白色 -->
+    <color name="red">#ff0000</color>
+    <!-- 红色 -->
+    <color name="indexred">#FC433F </color>
+    <!-- app红色 -->
+    <color name="yellow">#ffff00</color>
+    <!-- 黄色 -->
+    <color name="orange">#ffa500</color>
+    <!-- 橙色 -->
+    <color name="grey">#808080</color>
+    <!-- 灰色 -->
+    <color name="green">#008000</color>
+    <!-- 绿色 -->
+    <color name="blue">#0000ff</color>
+    <!-- 蓝色 -->
+    <color name="black">#000000</color>
+    <!-- 黑色 -->
+    <color name="indexgray">#E5E5E5</color>
+    <!-- app分割线 -->
+    <color name="weixinbg">#292C2D</color>
+    <!-- a微信摇一摇的的背景色 -->
+    <color name="weixindamaoxianbg">#585858</color>
+    <!-- a微信摇一摇的的背景色 -->
+    <color name="weixinheadbg">#292C2D</color>
+    <!-- 微信摇一摇的的头部背景色 -->
+
+    <color name="weibo_unline">#EDEDED</color>
+    <!-- 微博的itme与item的间距)颜色 -->
+    <color name="weibo_unline_3d">#D4D0D0</color>
+    <color name="neihan_head">#DCD9CF</color>
+    <!-- 内涵段子的头部背景颜色 -->
+    <color name="neihan_bg">#EEEEEE</color>
+    <!-- 内涵段子的底部颜色 -->
+    <color name="neihan_head_text">#4C4034</color>
+    <!-- 内涵段子的头部文字颜色 -->
+
+
+    <!-- app主题pressed颜色 -->
+    <color name="indexbg_pressed">#006c9e</color>
+
+    <!-- 评论和点赞的数目文字 -->
+    <color name="text_num_color">#707070</color>
+    <!-- 时间的颜色 -->
+    <color name="text_time_color">#afafaf</color>
+    <!-- 发布按钮不可用 -->
+    <color name="publish_btn_no_color">#92dafb</color>
+
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:background="#F5F5F5"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip" >
+
+        <Button
+            android:id="@+id/savehomes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="#F5F5F5"
+            android:text="保存"
+            android:textColor="#EE7600" />
+
+        <Button
+            android:id="@+id/cancelhomes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/savecity"
+            android:layout_alignBottom="@+id/savecity"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#F5F5F5"
+            android:text="取消"
+            android:textColor="#EE7600" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/savehomes"
+            android:layout_alignBottom="@+id/savehomes"
+            android:layout_centerHorizontal="true"
+            android:text="增加关注区域"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#4D4D4D" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="您关注的区域是：" />
+    
+    <TextView
+        android:id="@+id/homechoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_vertical"
+        android:text="" />
+    
+    </LinearLayout>
+    
+<RelativeLayout 
+		android:layout_width="fill_parent"    
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="2dp"    
+    	android:paddingLeft="5dip"    
+    	android:paddingRight="5dip" 
+    	android:background="#f3f3f3"  
+    	android:gravity="center_vertical" 
+    	android:orientation="horizontal"
+    	>
+		
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBottom="@+id/searchhomebutton"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignTop="@+id/searchhomebutton"
+		    android:layout_toLeftOf="@+id/searchhomebutton"
+		    android:background="#f3f3f3"
+		    android:orientation="horizontal"
+		    android:paddingBottom="5dip"
+		    android:paddingLeft="5dip"
+		    android:paddingRight="5dip"
+		    android:paddingTop="5dip" >
+
+		    <EditText
+		        android:id="@+id/searchhomeaddress"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="0.95"
+		        android:background="#ffffff"
+		        android:hint="搜索您想要关注的区域"
+		        android:textAppearance="?android:textAppearanceMedium"
+		        android:textColor="#898989" />
+		</LinearLayout>
+
+		<Button
+		    android:id="@+id/searchhomebutton"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:text=" 搜索 " />
+				
+	</RelativeLayout>
+	
+    <ListView
+        android:id="@+id/homeaddress_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+         >
+    </ListView>
+    
+
+</LinearLayout>

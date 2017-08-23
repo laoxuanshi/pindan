@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/popupwindow_LinearLayout"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:background="#f0f0f0"> 
+ 
+    <Button
+        android:id="@+id/modifyOrder_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#f0f0f0"
+        android:text="@string/modifyOrder" />
+    
+    <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#E5E5E5"/>
+    <Button
+        android:id="@+id/cancelOrder_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#f0f0f0"
+        android:text="@string/cancelOrder" />
+    
+    <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#E5E5E5"/>
+   
+    <Button 
+        android:id="@+id/finishOrder_btn" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" 
+        android:background="#f0f0f0"
+        android:text="@string/finishOrder"  />
+    
+    <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#E5E5E5"/>
+   
+    <Button 
+        android:id="@+id/pauseOrder_btn" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#f0f0f0" 
+        android:text="@string/pauseOrder" />
+    
+    <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#E5E5E5"/>
+    <Button 
+        android:id="@+id/resumeOrder_btn" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#f0f0f0" 
+        android:text="@string/resumeOrder" />
+    
+    <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#E5E5E5"/>
+   
+    <Button 
+        android:id="@+id/partcipateOrder_btn" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#f0f0f0"
+        android:text="@string/partcipateOrder" />
+    
+    <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#E5E5E5"/>
+   
+    <Button 
+        android:id="@+id/quitOrder_btn" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#f0f0f0"
+        android:text="@string/quitOrder" /> 
+        
+    <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#E5E5E5"/>
+   
+    <Button 
+        android:id="@+id/cloneOrder_btn" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#f0f0f0"
+        android:text="@string/cloneOrder" /> 
+
+	<Button 
+        android:id="@+id/collectorder" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#f0f0f0"
+        android:text="@string/collectorder" /> 
+        
+   <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#E5E5E5"/>
+   
+    <Button 
+        android:id="@+id/quxiaocollect" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#f0f0f0"
+        android:text="@string/quxiaocollect" /> 
+        
+   
+</LinearLayout>

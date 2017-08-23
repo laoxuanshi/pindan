@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"   
+    android:orientation="vertical" >  
+  
+    <fragment  
+        android:id="@+id/fragment_pin"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_weight="1"  
+        class="com.example.test.fragment.PinFragment" />  
+  
+    <fragment  
+        android:id="@+id/fragment_message"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_weight="1"  
+        class="com.example.test.fragment.MessageFragment" />  
+  
+    <fragment  
+        android:id="@+id/fragment_search"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_weight="1"  
+        class="com.example.test.fragment.SearchFragment" />  
+  
+      <fragment  
+        android:id="@+id/fragment_mine"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_weight="1"  
+        class="com.example.test.fragment.MineFragment" />  
+    <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#999999"/>
+    <com.example.test.FragmentIndicator  
+        android:id="@+id/indicator"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:background="#FFFFFf" />  
+  
+</LinearLayout> 

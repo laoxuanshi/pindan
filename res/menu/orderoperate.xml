@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/cancel"
+        android:title="@string/cancelOrder"/>
+    <item
+        android:id="@+id/finish"
+        android:title="@string/finishOrder"/>
+    <item
+        android:id="@+id/pause"
+        android:title="@string/pauseOrder"/>
+    <item
+        android:id="@+id/participate"
+        android:title="@string/partcipateOrder"/>
+    <item
+        android:id="@+id/quit"
+        android:title="@string/quitOrder">
+    </item>
+
+</menu>

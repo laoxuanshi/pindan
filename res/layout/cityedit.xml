@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="44dp"
+    android:background="#F5F5F5"
+    android:orientation="horizontal"
+    android:paddingBottom="5dip"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    android:paddingTop="5dip" >
+
+    <Button
+        android:id="@+id/savecity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#F5F5F5"
+        android:text="保存"
+        android:textColor="#EE7600" />
+
+    <Button
+        android:id="@+id/quxiaocity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/savecity"
+        android:layout_alignBottom="@+id/savecity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#F5F5F5"
+        android:text="取消"
+        android:textColor="#EE7600" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/savecity"
+        android:layout_alignBottom="@+id/savecity"
+        android:layout_centerHorizontal="true"
+        android:text="更改城市"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#4D4D4D" />
+
+</RelativeLayout>
+
+	<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1.0dip"
+	    android:background="#A8A8A8" />
+
+	<EditText
+	    android:id="@+id/editct"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:gravity="top"
+	    android:singleLine="false"
+	    android:textColor="#333355" >
+
+         
+        </EditText>
+</LinearLayout>

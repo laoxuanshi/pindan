@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E8E8E8" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#8B8B7A"
+        android:text="接收推送" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:background="#ffffff" >
+
+        	<ToggleButton
+        	    android:id="@+id/switch1"
+        	    android:layout_width="70dp"
+        	    android:layout_height="30dp"
+        	    android:layout_alignParentRight="true"
+        	    android:layout_centerVertical="true"
+        	    android:layout_marginBottom="10dp"
+        	    android:layout_marginRight="15dp"
+        	    android:layout_marginTop="15dp"
+        	    android:background="@drawable/switchxml"
+        	    android:textOff=""
+        	    android:textOn="" />
+
+        	<TextView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentLeft="true"
+        	    android:layout_centerVertical="true"
+        	    android:layout_marginBottom="10dp"
+        	    android:layout_marginLeft="10dp"
+        	    android:layout_marginTop="15dp"
+        	    android:textSize="16dp"
+        	    android:text="接收推荐拼单推送" />
+       
+    	</RelativeLayout>
+
+             	<View
+             	    android:layout_width="fill_parent"
+             	    android:layout_height="1.0dip"
+             	    android:layout_marginBottom="8dp"
+             	    android:layout_marginLeft="5dp"
+             	    android:layout_marginRight="5dp"
+             	    android:background="@color/weibo_unline" />
+             	
+                <RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:background="#ffffff" >
+
+        	<ToggleButton
+        	    android:id="@+id/switch2"
+        	    android:layout_width="70dp"
+        	    android:layout_height="30dp"
+        	    android:layout_alignParentRight="true"
+        	    android:layout_centerVertical="true"
+        	    android:layout_marginBottom="10dp"
+        	    android:layout_marginRight="15dp"
+        	    android:layout_marginTop="10dp"
+        	    android:background="@drawable/switchxml"
+        	    android:textOff=""
+        	    android:textOn="" />
+
+        	<TextView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentLeft="true"
+        	    android:layout_centerVertical="true"
+        	    android:layout_marginBottom="10dp"
+        	    android:layout_marginLeft="10dp"
+        	    android:layout_marginTop="10dp"
+        	    android:textSize="16dp"
+        	    android:text="接收评论推送" />
+       
+    	</RelativeLayout>
+
+             	<View
+             	    android:layout_width="fill_parent"
+             	    android:layout_height="1.0dip"
+             	    android:layout_marginBottom="8dp"
+             	    android:layout_marginLeft="5dp"
+             	    android:layout_marginRight="5dp"
+             	    android:background="@color/weibo_unline" />
+		<RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:background="#ffffff" >
+
+        	<ToggleButton
+        	    android:id="@+id/switch3"
+        	    android:layout_width="70dp"
+        	    android:layout_height="30dp"
+        	    android:layout_alignParentRight="true"
+        	    android:layout_centerVertical="true"
+        	    android:layout_marginBottom="10dp"
+        	    android:layout_marginRight="15dp"
+        	    android:layout_marginTop="10dp"
+        	    android:background="@drawable/switchxml"
+        	    android:textOff=""
+        	    android:textOn="" />
+
+        	<TextView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentLeft="true"
+        	    android:layout_centerVertical="true"
+        	    android:layout_marginBottom="10dp"
+        	    android:layout_marginLeft="10dp"
+        	    android:layout_marginTop="10dp"
+        	    android:textSize="16dp"        	    
+        	    android:text="接收拼单状态推送" />
+       
+    	</RelativeLayout>
+    	
+<View
+             	    android:layout_width="fill_parent"
+             	    android:layout_height="1.0dip"
+             	    android:layout_marginBottom="8dp"
+             	    android:layout_marginLeft="5dp"
+             	    android:layout_marginRight="5dp"
+             	    android:background="@color/weibo_unline" />
+    	
+		<RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:background="#ffffff" >
+
+        	<ToggleButton
+        	    android:id="@+id/switch4"
+        	    android:layout_width="70dp"
+        	    android:layout_height="30dp"
+        	    android:layout_marginRight="15dp"
+        	    android:layout_alignParentRight="true"
+        	    android:layout_centerVertical="true"
+        	    android:layout_marginBottom="10dp"
+        	    android:layout_marginTop="10dp"
+        	    android:background="@drawable/switchxml"
+        	    android:textOff=""
+        	    android:textOn=""/>
+
+        	<TextView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentLeft="true"
+        	    android:layout_centerVertical="true"
+        	    android:layout_marginBottom="10dp"
+        	    android:layout_marginLeft="10dp"
+        	    android:layout_marginTop="10dp"
+        	    android:textSize="16dp"        	    
+        	    android:text="聊天消息提示音" />
+       
+    	</RelativeLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#8B8B7A"
+        android:text="账号绑定" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:background="#ffffff" >
+
+        	<ToggleButton
+        	    android:id="@+id/weiboSwitch"
+        	    android:layout_width="70dp"
+        	    android:layout_height="30dp"
+        	    android:layout_marginRight="15dp"
+        	    android:layout_alignParentRight="true"
+        	    android:layout_centerVertical="true"
+        	    android:layout_marginBottom="10dp"
+        	    android:layout_marginTop="15dp"
+        	    android:background="@drawable/switchxml"
+        	    android:textOff=""
+        	    android:textOn="" />
+
+        	<TextView
+        	    android:id="@+id/weiboName"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentLeft="true"
+        	    android:layout_centerVertical="true"
+        	    android:layout_marginBottom="10dp"
+        	    android:layout_marginLeft="10dp"
+        	    android:layout_marginTop="15dp"
+        	    android:textSize="16dp"
+        	    android:text="新浪微博" />
+       
+    	</RelativeLayout>
+
+
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:id="@+id/changePasswordLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/relativelayout_select_style"
+        android:orientation="vertical" >
+
+
+        <RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:background="@drawable/relativelayout_select_style" >
+
+
+        	<TextView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="20dp"
+        	    android:layout_alignParentLeft="true"
+        	    android:layout_centerVertical="true"
+        	    android:layout_marginBottom="15dp"
+        	    android:layout_marginLeft="10dp"
+        	    android:layout_marginTop="15dp"
+        	    android:textSize="16dp"
+        	    android:text="修改密码" />
+        	
+       
+    	</RelativeLayout>
+
+
+    </LinearLayout>
+    
+        <LinearLayout
+        android:id="@+id/logoutbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/relativelayout_select_style"
+        android:orientation="vertical" >
+
+
+        <RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:background="@drawable/relativelayout_select_style" >
+
+
+        	<TextView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="20dp"
+        	    android:layout_alignParentLeft="true"
+        	    android:layout_centerVertical="true"
+        	    android:layout_marginBottom="15dp"
+        	    android:layout_marginLeft="10dp"
+        	    android:layout_marginTop="15dp"
+        	    android:textSize="16dp"
+        	    android:text="退出登录" />
+        	
+       
+    	</RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

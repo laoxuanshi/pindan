@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/head_commentl"
+            android:layout_width="40dp"
+            android:layout_height="40dp" 
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp">
+
+            <ImageView
+                android:id="@+id/head_comment"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/mine" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/nickname_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/head_commentl"
+            android:layout_toRightOf="@+id/head_commentl"
+            android:text="昵称" />
+
+        <TextView
+            android:id="@+id/comment_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nickname_comment"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nickname_comment"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:text="评论内容" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"
+    android:background="#f3f3f3"  
+    android:orientation="vertical" >
+<RelativeLayout 
+		android:layout_width="fill_parent"    
+    	android:layout_height="wrap_content"    
+    	android:paddingLeft="5dip"    
+    	android:paddingRight="5dip" 
+    	android:paddingTop="5dip"
+    	android:paddingBottom="5dip" 
+    	android:background="#f3f3f3"  
+    	android:gravity="center_vertical" 
+    	android:orientation="horizontal"
+    	>
+		
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBottom="@+id/SAbutton"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignTop="@+id/SAbutton"
+		    android:layout_toLeftOf="@+id/SAbutton"
+		    android:background="#f3f3f3"
+		    android:orientation="horizontal"
+		    android:paddingBottom="5dip"
+		    android:paddingLeft="5dip"
+		    android:paddingRight="5dip"
+		    android:paddingTop="5dip" >
+
+		    <EditText
+		        android:id="@+id/searchaddress"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:layout_weight="0.95"
+		        android:background="#ffffff"
+		        android:hint="搜索附近位置"
+		        android:textAppearance="?android:textAppearanceMedium"
+		        android:textColor="#898989" />
+		</LinearLayout>
+
+		<Button
+		    android:id="@+id/SAbutton"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:text=" 搜索 " />
+				
+	</RelativeLayout>
+	
+    <ListView
+        android:id="@+id/address_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+         >
+    </ListView>
+    
+</LinearLayout>

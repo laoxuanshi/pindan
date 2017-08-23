@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/title_bg"
+    android:orientation="horizontal"
+    android:paddingBottom="5dip"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    android:paddingTop="5dip" >
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/title_btn_normal"
+        android:text="&lt;返回"
+        android:textColor="#ffffff" />
+
+
+			
+			<TextView 
+			    android:id="@+id/searchtextshow"
+				android:textAppearance="?android:textAppearanceMedium"
+				android:layout_alignBaseline="@+id/back"
+       	 		android:layout_alignBottom="@+id/back"
+        		android:layout_centerHorizontal="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="gggggggg"
+				android:textColor="#ffffff"
+				/>
+
+
+</RelativeLayout>
+	
+<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="#8DB6CD"
+		android:gravity="center_vertical"
+		>
+		
+			<Spinner
+                android:id="@+id/s_city"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+			
+			 <Spinner
+			     android:id="@+id/s_sortbig"
+			     android:layout_width="100dp"
+			     android:layout_height="wrap_content"
+			     android:layout_weight="1" />
+            
+            <Spinner
+                android:id="@+id/s_sortsmall"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+	</LinearLayout>
+	
+<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="#8DB6CD"
+		>
+            <Spinner
+                android:id="@+id/s_city1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+		
+			<Spinner
+                android:id="@+id/pinstatus"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+            
+            <Spinner
+                android:id="@+id/whetheronline"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+	</LinearLayout>
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/list_searchresult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    
+</LinearLayout>

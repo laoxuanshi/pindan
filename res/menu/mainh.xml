@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.popupwindowoverflow.MainActivity" >
+<item
+        android:id="@+id/action_addpindan"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_input_add"
+        >
+    <menu>
+        <item android:id="@+id/sponsor_online"
+        android:title="@string/online" />
+         <item android:id="@+id/sponsor_offline"
+        android:title="@string/offline" />
+
+    </menu>
+</item>
+
+
+</menu>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical"  
+    android:background="#f3f3f3">  
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/push_RelativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:background="#F0F0F0"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/pushimg"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/push" />
+
+            <TextView
+                android:id="@+id/see_push"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/pushNum"
+                android:layout_toRightOf="@id/pushimg"
+                android:background="#00000000"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:text="      推荐"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/pushNum"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/red"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="#ffffff"
+                android:gravity="center_vertical|center_horizontal" />
+
+        </RelativeLayout>
+        
+        <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#E5E5E5"/>
+        
+        <RelativeLayout
+			android:id="@+id/comment_RelativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:background="#F0F0F0"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/commentimg"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/reply" />
+
+            <TextView
+                android:id="@+id/see_comment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/commentNum"
+                android:layout_toRightOf="@id/commentimg"
+                android:background="#00000000"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:text="      评论"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/commentNum"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/red"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="#ffffff"
+                android:gravity="center_vertical|center_horizontal"/>
+
+        </RelativeLayout>
+        
+        <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#E5E5E5"/>
+        <RelativeLayout
+			android:id="@+id/statuschange_RelativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" 
+            android:background="#F0F0F0"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/commentimg"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/state" 
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/see_comment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/stateNum"
+                android:layout_toRightOf="@id/commentimg"
+                android:background="#00000000"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:text="      拼单状态"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/stateNum"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/red"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="#ffffff"
+                android:gravity="center_vertical|center_horizontal"/>
+
+        </RelativeLayout>
+        
+
+    </LinearLayout>  
+  
+</LinearLayout>  
