@@ -16,7 +16,7 @@ import android.provider.MediaStore.Images.Thumbnails;
 import android.util.Log;
 
 /**
- * 专辑帮助�?
+ * 专辑帮助
  * 
  * @author Administrator
  * 
@@ -27,7 +27,7 @@ public class AlbumHelper
 	Context context;
 	ContentResolver cr;
 
-	// 缩略图列�?
+	// 缩略图
 	HashMap<String, String> thumbnailList = new HashMap<String, String>();
 	// 专辑列表
 	List<HashMap<String, String>> albumList = new ArrayList<HashMap<String, String>>();
@@ -49,7 +49,7 @@ public class AlbumHelper
 	}
 
 	/**
-	 * 初始�?
+	 * 初始
 	 * 
 	 * @param context
 	 */
@@ -62,9 +62,7 @@ public class AlbumHelper
 		}
 	}
 
-	/**
-	 * 得到缩略�?
-	 */
+
 	private void getThumbnail()
 	{
 		String[] projection =
@@ -124,7 +122,7 @@ public class AlbumHelper
 	}
 
 	/**
-	 * 从本地数据库中得到原�?
+	 * 从本地数据库中得到原�?
 	 * 
 	 * @param cur
 	 */
@@ -180,21 +178,18 @@ public class AlbumHelper
 	boolean hasBuildImagesBucketList = false;
 
 	/**
-	 * 得到图片�?
+	 * 得到图片
 	 */
 	void buildImagesBucketList()
 	{
 		long startTime = System.currentTimeMillis();
-
-		// 构�?缩略图索�?
 		getThumbnail();
 
-		// 构�?相册索引
 		String columns[] = new String[]
 		{ Media._ID, Media.BUCKET_ID, Media.PICASA_ID, Media.DATA,
 				Media.DISPLAY_NAME, Media.TITLE, Media.SIZE,
 				Media.BUCKET_DISPLAY_NAME };
-		// 得到�?��游标
+
 		Cursor cur = cr.query(Media.EXTERNAL_CONTENT_URI, columns, null, null,
 				null);
 		if (cur.moveToFirst())
@@ -268,7 +263,7 @@ public class AlbumHelper
 	}
 
 	/**
-	 * 得到图片�?
+	 * 得到图片
 	 * 
 	 * @param refresh
 	 * @return

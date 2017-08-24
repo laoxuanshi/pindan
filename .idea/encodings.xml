@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/README" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/AccessTokenKeeper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/AlbumHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/Bimp.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/CommentActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/FileUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/ImageBucket.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/ImageGridActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/ImageItem.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/test/OrderAdapter.java" charset="GBK" />
-    <file url="PROJECT" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/PhotoActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/TestPicActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/activity/MainActivity.java" charset="GBK" />
   </component>
 </project>

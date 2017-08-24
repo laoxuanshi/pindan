@@ -18,7 +18,7 @@ public class TestPicActivity extends Activity
 	// ArrayList<Entity> dataList;//用来装载数据源的列表
 	List<ImageBucket> dataList;
 	GridView gridView;
-	ImageBucketAdapter adapter;// 自定义的适配�?
+	ImageBucketAdapter adapter;// 自定义的适配
 	AlbumHelper helper;
 	public static final String EXTRA_IMAGE_LIST = "imagelist";
 	public static Bitmap bimap;
@@ -38,12 +38,12 @@ public class TestPicActivity extends Activity
 	}
 
 	/**
-	 * 初始化数�?
+	 * 初始化数
 	 */
 	private void initData()
 	{
 		// /**
-		// * 这里，我们假设已经从网络或�?本地解析好了数据，所以直接在这里模拟�?0个实体类，直接装进列表中
+		// * 这里，我们假设已经从网络或本地解析好了数据，所以直接在这里模拟0个实体类，直接装进列表中
 		// */
 		// dataList = new ArrayList<Entity>();
 		// for(int i=-0;i<10;i++){
@@ -72,8 +72,8 @@ public class TestPicActivity extends Activity
 					int position, long id)
 			{
 				/**
-				 * 根据position参数，可以获得跟GridView的子View相绑定的实体类，然后根据它的isSelected状�?�?
-				 * 来判断是否显示�?中效果�? 至于选中效果的规则，下面适配器的代码中会有说�?
+				 * 根据position参数，可以获得跟GridView的子View相绑定的实体类，然后根据它的isSelected状
+				 * 来判断是否显示中效果 至于选中效果的规则，下面适配器的代码中会有说
 				 */
 				// if(dataList.get(position).isSelected()){
 				// dataList.get(position).setSelected(false);
@@ -81,7 +81,7 @@ public class TestPicActivity extends Activity
 				// dataList.get(position).setSelected(true);
 				// }
 				/**
-				 * 通知适配器，绑定的数据发生了改变，应当刷新视�?
+				 * 通知适配器，绑定的数据发生了改变，应当刷新视
 				 */
 				// adapter.notifyDataSetChanged();
 				Intent intent = new Intent(TestPicActivity.this,

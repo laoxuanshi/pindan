@@ -18,9 +18,7 @@ public class ImageBucketAdapter extends BaseAdapter
 	final String TAG = getClass().getSimpleName();
 
 	Activity act;
-	/**
-	 * 图片集列�?
-	 */
+
 	List<ImageBucket> dataList;
 	BitmapCache cache;
 	ImageCallback callback = new ImageCallback()

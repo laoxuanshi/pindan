@@ -111,8 +111,8 @@ public class PhotoActivity extends Activity
 			initListViews(bmp.get(i));//
 		}
 
-		adapter = new MyPageAdapter(listViews);// 构�?adapter
-		pager.setAdapter(adapter);// 设置适配�?
+		adapter = new MyPageAdapter(listViews);// 构adapter
+		pager.setAdapter(adapter);// 设置适配
 		Intent intent = getIntent();
 		int id = intent.getIntExtra("ID", 0);
 		pager.setCurrentItem(id);
@@ -122,7 +122,7 @@ public class PhotoActivity extends Activity
 	{
 		if (listViews == null)
 			listViews = new ArrayList<View>();
-		ImageView img = new ImageView(this);// 构�?textView对象
+		ImageView img = new ImageView(this);// 构textView对象
 		img.setBackgroundColor(0xff000000);
 		img.setImageBitmap(bm);
 		img.setLayoutParams(new LayoutParams(LayoutParams.FILL_PARENT,
@@ -139,12 +139,12 @@ public class PhotoActivity extends Activity
 		}
 
 		public void onPageScrolled(int arg0, float arg1, int arg2)
-		{// 滑动中�?。�?
+		{// 滑动中。
 
 		}
 
 		public void onPageScrollStateChanged(int arg0)
-		{// 滑动状�?改变
+		{// 滑动状改变
 
 		}
 	};
@@ -157,14 +157,14 @@ public class PhotoActivity extends Activity
 		private int size;// 页数
 
 		public MyPageAdapter(ArrayList<View> listViews)
-		{// 构�?函数
-			// 初始化viewpager的时候给的一个页�?
+		{// 构函数
+			// 初始化viewpager的时候给的一个页
 			this.listViews = listViews;
 			size = listViews == null ? 0 : listViews.size();
 		}
 
 		public void setListViews(ArrayList<View> listViews)
-		{// 自己写的�?��方法用来添加数据
+		{// 自己写的方法用来添加数据
 			this.listViews = listViews;
 			size = listViews == null ? 0 : listViews.size();
 		}
@@ -180,7 +180,7 @@ public class PhotoActivity extends Activity
 		}
 
 		public void destroyItem(View arg0, int arg1, Object arg2)
-		{// �?��view对象
+		{// view对象
 			((ViewPager) arg0).removeView(listViews.get(arg1 % size));
 		}
 

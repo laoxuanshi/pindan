@@ -23,7 +23,7 @@ import android.content.SharedPreferences.Editor;
 import com.sina.weibo.sdk.auth.Oauth2AccessToken;
 
 /**
- * è¯¥ç±»å®šä¹‰äº†å¾®åšæˆæƒæ—¶ï¿½?ï¿½?è¦çš„å‚æ•°ï¿½?
+ * ¸ÃÀà¶¨ÒåÁËÎ¢²©ÊÚÈ¨
  * 
  * @author SINA
  * @since 2013-10-07
@@ -36,10 +36,10 @@ public class AccessTokenKeeper {
     private static final String KEY_EXPIRES_IN    = "expires_in";
     
     /**
-     * ä¿å­˜ Token å¯¹è±¡ï¿½? SharedPreferencesï¿½?
+     * ±£´æ Token ¶ÔÏó
      * 
-     * @param context åº”ç”¨ç¨‹åºä¸Šä¸‹æ–‡ç¯ï¿½?
-     * @param token   Token å¯¹è±¡
+     * @param context Ó¦ÓÃ³ÌĞòÉÏÏÂÎÄ
+     * @param token   Token ¶ÔÏó
      */
     public static void writeAccessToken(Context context, Oauth2AccessToken token) {
         if (null == context || null == token) {
@@ -55,11 +55,11 @@ public class AccessTokenKeeper {
     }
 
     /**
-     * ï¿½? SharedPreferences è¯»å– Token ä¿¡æ¯ï¿½?
+     * ?? SharedPreferences ¶ÁÈ¡ Token ĞÅÏ¢
      * 
-     * @param context åº”ç”¨ç¨‹åºä¸Šä¸‹æ–‡ç¯ï¿½?
+     * @param context Ó¦ÓÃ³ÌĞòÉÏÏÂÎÄ
      * 
-     * @return è¿”å› Token å¯¹è±¡
+     * @return ·µ»Ø Token ¶ÔÏó
      */
     public static Oauth2AccessToken readAccessToken(Context context) {
         if (null == context) {
@@ -75,9 +75,9 @@ public class AccessTokenKeeper {
     }
 
     /**
-     * æ¸…ç©º SharedPreferences ï¿½? Tokenä¿¡æ¯ï¿½?
+     * Çå¿Õ SharedPreferences
      * 
-     * @param context åº”ç”¨ç¨‹åºä¸Šä¸‹æ–‡ç¯ï¿½?
+     * @param context Ó¦ÓÃ³ÌĞòÉÏÏÂÎÄ
      */
     public static void clear(Context context) {
         if (null == context) {
