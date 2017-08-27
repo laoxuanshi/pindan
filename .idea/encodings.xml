@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/src/com/example/test/AccessTokenKeeper.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/example/test/AlbumHelper.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/example/test/Bimp.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/example/test/CommentActivity.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/example/test/FileUtils.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/example/test/ImageBucket.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/example/test/ImageGridActivity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/example/test/ImageItem.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/example/test/OrderAdapter.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/example/test/PhotoActivity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/example/test/TestPicActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/MineFragment/gerenxinxi_homes.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/MineFragment/gerenxinxi_interest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/PinFragment/Bimp.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/PinFragment/CommentActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/PinFragment/ImageBucket.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/PinFragment/ImageGridActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/PinFragment/ImageItem.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/PinFragment/xianshang1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/SearchFragment/TestPicActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/activity/AccessTokenKeeper.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/example/test/activity/MainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/activity/WXEntryActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/activity/findcode1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/activity/findcode2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/activity/findcode3.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/activity/login.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/util/AlbumHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/util/FileUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/util/FragmentIndicator.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/test/util/Loger.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
