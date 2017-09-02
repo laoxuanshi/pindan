@@ -12,9 +12,9 @@
 ![](/screenshot/w2.png)
 #### 详情页
 ![](/screenshot/w3.png)
-![](/screenshot/w4.png)
+![](/screenshot/w4.png) <br>
 分享
-![](/screenshot/w5.png)
+![](/screenshot/w5.png)<br>
 群组聊天
 ![](/screenshot/w6.png)
 
@@ -25,13 +25,13 @@
 ![](/screenshot/w8.png)
 
 ### 我的
-![](/screenshot/w9.png)
+![](/screenshot/w9.png)<br>
 
 个人信息
-![](/screenshot/w10.png)
+![](/screenshot/w10.png)<br>
 
 上传头像
-![](/screenshot/w11.png)
+![](/screenshot/w11.png)<br>
 
 设置
 ![](/screenshot/w12.png)
