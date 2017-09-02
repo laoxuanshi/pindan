@@ -5,33 +5,33 @@
 ## APP部分页面截图
 
 ### 登录
-![](/screenshot/w1.png)
+![](/screenshot/w1.png)<br>
 
 ### 拼单
 #### 首页
-![](/screenshot/w2.png)
+![](/screenshot/w2.png)<br>
 #### 详情页
-![](/screenshot/w3.png)
+![](/screenshot/w3.png)<br>
 ![](/screenshot/w4.png) <br>
-分享
+分享<br>
 ![](/screenshot/w5.png)<br>
-群组聊天
-![](/screenshot/w6.png)
+群组聊天<br>
+![](/screenshot/w6.png)<br>
 
 ### 消息
-![](/screenshot/w7.png)
+![](/screenshot/w7.png)<br>
 
 ### 搜索
-![](/screenshot/w8.png)
+![](/screenshot/w8.png)<br>
 
 ### 我的
 ![](/screenshot/w9.png)<br>
 
-个人信息
+个人信息<br>
 ![](/screenshot/w10.png)<br>
 
-上传头像
+上传头像<br>
 ![](/screenshot/w11.png)<br>
 
-设置
+设置<br>
 ![](/screenshot/w12.png)
